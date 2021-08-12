@@ -1,0 +1,12 @@
+.example-card{
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.example-header-image{
+    background-image: url(C:/Users/Administrator/week2/src/assets/images/1.jpg);
+    background-size: cover;
+}
+.line{
+    display: inline-block;
+}

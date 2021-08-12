@@ -1,0 +1,21 @@
+<mat-toolbar color="primary">
+  Best Restuarant info by VISHAL VAIBHAV
+</mat-toolbar>
+<div>
+  <mat-card class="example-card" *ngFor="let m of menu">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{m.name}}</mat-card-title>
+      <mat-card-subtitle>{{m.place}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{m.imageurl}}  hieght=200px>
+    <mat-card-content>
+      <p>
+          infooo  
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="accent" (click)="showDialog(m.name)">MENU</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
